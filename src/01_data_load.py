@@ -14,7 +14,7 @@ def main():
 
     # loading data
     # gettig the file with PNA data
-    data_path = r'\data\raw\poziom_wyszczepienia_mieszkańców_gmin_w_dniu_20210929_wskaźniki.csv'
+    data_path = r'\data\raw\vaccination_data\poziom_wyszczepienia_mieszkańców_gmin_w_dniu_20210929_wskaźniki.csv'
     data = pd.read_csv(project_dir + data_path, encoding_errors='ignore', sep=';')
 
     # restricting dataframe to necessary columns
@@ -26,13 +26,11 @@ def main():
     print(data.head(10))
 
     # reshaping data
-    data['teryt'] = data['teryt'].apply(lambda x: str(x).zfill())
+    data['teryt'] = data['teryt'].apply(lambda x: str(x).zfill(7))
     data['%_vaccinated'] = data['%_vaccinated'].apply(lambda x: float(str(x).replace(',', ".")))
 
-    print(data.head(10))
-    print(data.dtypes)
 
-    data_save_path = r'\data\interim\vaccinations_municipality_20210929'
+    data_save_path = r'\data\interim\vaccination_data\vaccinations_municipality_20210929'
     data.to_excel(project_dir + data_save_path + '.xlsx', index=False)
     data.to_csv(project_dir + data_save_path + '.csv', index=False)
 
@@ -40,6 +38,5 @@ def main():
     end_time = time.time()
     execution_time = int(end_time - start_time)
     print('\n', 'exectution time = ', execution_time, 'sec')
-
 if __name__ == "__main__":
     main()

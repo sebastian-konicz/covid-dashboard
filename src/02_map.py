@@ -1,6 +1,6 @@
 from pathlib import Path
 import pandas as pd
-# import matplotlib.pyplot as plt
+import plotly.express as px
 import geopandas as gpd
 import folium
 import time
@@ -25,7 +25,7 @@ def main():
     map['JPT_KOD_JE'] = map['JPT_KOD_JE'].apply(lambda x: str(x))
 
     # loading unemployment data
-    data_path = r'\data\interim\vaccinations_municipality_20210929.xlsx'
+    data_path = r'\data\interim\vaccination_data\vaccinations_municipality_20210929.xlsx'
     data = pd.read_excel(project_dir + data_path)
 
     # restricting dataframe
@@ -33,55 +33,35 @@ def main():
 
     data['teryt'] = data['teryt'].apply(lambda x: str(x).zfill(7))
 
-    # merging dataframes
-    map = map.merge(data, left_on='JPT_KOD_JE', right_on='teryt')
+    # # merging dataframes
+    # map = map.merge(data, left_on='JPT_KOD_JE', right_on='teryt')
 
     # simplifying geometry
     map.geometry = map.geometry.simplify(0.005)
 
-    # changing data to GeoJSON
-    map_geo = map.to_json()
+    # merging dataframe
+    geo_df = map.merge(data, left_on="JPT_KOD_JE", right_on='teryt').set_index("teryt")
 
-    # creating folium map
-    map_graph = folium.Map([52, 19], zoom_start=6)
+    geo_df.to_file(project_dir + r'\data\interim\geo\geo_vaccinations.geojson', driver='GeoJSON')
 
-    folium.Choropleth(geo_data=map_geo,
-                      name='choropleth',
-                      data=data,
-                      columns=['teryt', '%_vaccinated'],
-                      key_on='feature.properties.JPT_KOD_JE',
-                      bins=9,
-                      fill_color='YlGnBu', # ‘BuGn’, ‘BuPu’, ‘GnBu’, ‘OrRd’, ‘PuBu’, ‘PuBuGn’, ‘PuRd’, ‘RdPu’, ‘YlGn’, ‘YlGnBu’, ‘YlOrBr’, and ‘YlOrRd’
-                      fill_opacity=0.7,
-                      line_opacity=0.2,
-                      highlight=True,
-                      legend_name="Szczepienia w procentach").add_to(map_graph)
+    # get the maximum value to cap displayed values
+    max_log = geo_df['%_vaccinated'].max()
+    min_val = geo_df['%_vaccinated'].min()
+    max_val = int(max_log) + 1
 
-    # adding labels to map
-    style_function = lambda x: {'fillColor': '#ffffff',
-                                'color': '#000000',
-                                'fillOpacity': 0.1,
-                                'weight': 0.1}
+    fig = px.choropleth_mapbox(geo_df,
+                               geojson=geo_df.geometry,
+                               locations=geo_df.index,
+                               color='%_vaccinated',
+                               color_continuous_scale=px.colors.diverging.RdBu,
+                               range_color=(min_val, max_val),
+                               mapbox_style="carto-positron",
+                               zoom=5, center={"lat": 52, "lon": 19},
+                               opacity=0.5,
+                               )
+    fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
+    fig.show()
 
-    tooltip = folium.features.GeoJson(
-        map_geo,
-        style_function=style_function,
-        control=False,
-        tooltip=folium.features.GeoJsonTooltip(
-            fields=['municipality', '%_vaccinated'],
-            aliases=['nazwa', '%_zaszczepionych_pełną_dawką'],
-            style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;")
-        ),
-    )
-
-    map_graph.add_child(tooltip)
-    # map_graph.keep_in_front(tooltip)
-    folium.LayerControl().add_to(map_graph)
-
-    # saving map
-    print('saving map')
-    map_graph.save(project_dir + r'\data\final\vaccination_map.html')
-    map_graph.save(project_dir + r'\templates\vaccination_map.html')
 
     # end time of program + duration
     end_time = time.time()
