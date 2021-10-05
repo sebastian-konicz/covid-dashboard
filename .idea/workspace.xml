@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711db136-6694-423f-94e6-7226af04e264" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/02_map_copy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/vaccination_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/vaccination_map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccinations_20210929.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccinations_20210929.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/01_data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_data_load.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vaccination_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vaccination_map.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
