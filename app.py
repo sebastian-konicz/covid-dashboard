@@ -21,10 +21,10 @@ data = data[['teryt', 'powiat', '%_zaszczepieni']]
 # reshaping teryt
 data['teryt'] = data['teryt'].apply(lambda x: str(x).zfill(4))
 
-# loading geojson
-geo_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/geo/geo_county.geojson'
-with open(geo_path) as file:
-    geojson = gj.load(file)
+# # loading geojson
+# geo_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/geo/geo_county.geojson'
+# with open(geo_path) as file:
+#     geojson = gj.load(file)
 
 # # get the maximum value to cap displayed values
 #     max_log = data['%_zaszczepieni'].max()
