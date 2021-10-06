@@ -10,24 +10,25 @@ from dash import html
 app = dash.Dash(__name__)
 server = app.server
 
-# # project directory
-# project_dir = str(Path(__file__).resolve().parents[0])
-#
-# # # # # # # DATA # # # # # #
-# # loading dataframe
-# # loading data
-# data_path = r'\data\interim\vaccination_data\vaccinations_county_20211003.xlsx'
-# data = pd.read_excel(project_dir + data_path)
-#
-# # restricting dataframe
-# data = data[['teryt', 'powiat', '%_zaszczepieni']]
-#
-# # reshaping teryt
-# data['teryt'] = data['teryt'].apply(lambda x: str(x).zfill(4))
-#
-# # loading geojson
-# with open(project_dir + r'\data\interim\geo\geo_county.geojson') as file:
-#     geojson = gj.load(file)
+# project directory
+project_dir = str(Path(__file__).resolve().parents[0])
+
+# # # # # # DATA # # # # # #
+# loading dataframe
+# loading data
+data_path = r'\data\interim\vaccination_data\vaccinations_county_20211003.xlsx'
+data = pd.read_excel(project_dir + data_path)
+
+# restricting dataframe
+data = data[['teryt', 'powiat', '%_zaszczepieni']]
+
+# reshaping teryt
+data['teryt'] = data['teryt'].apply(lambda x: str(x).zfill(4))
+
+# loading geojson
+with open(project_dir + r'\data\interim\geo\geo_county.geojson') as file:
+    geojson = gj.load(file)
+
 # # get the maximum value to cap displayed values
 #     max_log = data['%_zaszczepieni'].max()
 #     min_val = data['%_zaszczepieni'].min()
