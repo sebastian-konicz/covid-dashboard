@@ -1,6 +1,5 @@
 import pandas as pd
 import geojson as gj
-from pathlib import Path
 import plotly.express as px
 
 import dash
@@ -9,11 +8,6 @@ from dash import html
 
 app = dash.Dash(__name__)
 server = app.server
-
-# project directory
-project_dir = str(Path(__file__).resolve().parents[0])
-
-print(project_dir)
 
 # # # # # DATA # # # # # #
 # loading dataframe
@@ -32,23 +26,23 @@ geo_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/in
 with open(geo_path) as file:
     geojson = gj.load(file)
 
-# get the maximum value to cap displayed values
-    max_log = data['%_zaszczepieni'].max()
-    min_val = data['%_zaszczepieni'].min()
-    max_val = int(max_log) + 1
-
-    fig = px.choropleth_mapbox(data,
-                               geojson=geojson,
-                               featureidkey='properties.JPT_KOD_JE',
-                               locations='teryt',
-                               color='%_zaszczepieni',
-                               color_continuous_scale=px.colors.diverging.RdBu,
-                               range_color=(min_val, max_val),
-                               mapbox_style="carto-positron",
-                               zoom=5, center={"lat": 52, "lon": 19},
-                               opacity=0.5,
-                               )
-    fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
+# # get the maximum value to cap displayed values
+#     max_log = data['%_zaszczepieni'].max()
+#     min_val = data['%_zaszczepieni'].min()
+#     max_val = int(max_log) + 1
+#
+#     fig = px.choropleth_mapbox(data,
+#                                geojson=geojson,
+#                                featureidkey='properties.JPT_KOD_JE',
+#                                locations='teryt',
+#                                color='%_zaszczepieni',
+#                                color_continuous_scale=px.colors.diverging.RdBu,
+#                                range_color=(min_val, max_val),
+#                                mapbox_style="carto-positron",
+#                                zoom=5, center={"lat": 52, "lon": 19},
+#                                opacity=0.5,
+#                                )
+#     fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
 # # # # # # LAYOUT # # # # # #
 app.layout = html.Div([
@@ -56,7 +50,7 @@ app.layout = html.Div([
             style={'textAlign': 'center'}),
     dcc.Graph(
             id='example-map',
-            figure=fig
+            # figure=fig
     ),
 ])
 
