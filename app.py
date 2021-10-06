@@ -29,7 +29,7 @@ data['teryt'] = data['teryt'].apply(lambda x: str(x).zfill(4))
 
 # loading geojson
 geo_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/geo/geo_county.geojson'
-with open(project_dir + r'\data\interim\geo\geo_county.geojson') as file:
+with open(geo_path) as file:
     geojson = gj.load(file)
 
 # get the maximum value to cap displayed values
@@ -56,7 +56,7 @@ app.layout = html.Div([
             style={'textAlign': 'center'}),
     dcc.Graph(
             id='example-map',
-            # figure=fig
+            figure=fig
     ),
 ])
 
