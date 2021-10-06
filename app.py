@@ -25,9 +25,9 @@ project_dir = str(Path(__file__).resolve().parents[0])
 # # reshaping teryt
 # data['teryt'] = data['teryt'].apply(lambda x: str(x).zfill(4))
 
-# # loading geojson
-# with open(project_dir + r'\data\interim\geo\geo_county.geojson') as file:
-#     geojson = gj.load(file)
+# loading geojson
+with open(project_dir + r'\data\interim\geo\geo_county.geojson') as file:
+    geojson = gj.load(file)
 #
 # # get the maximum value to cap displayed values
 #     max_log = data['%_zaszczepieni'].max()
