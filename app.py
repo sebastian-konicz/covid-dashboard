@@ -14,16 +14,16 @@ server = app.server
 project_dir = str(Path(__file__).resolve().parents[0])
 
 # # # # # # DATA # # # # # #
-# loading dataframe
-# loading data
-data_path = r'\data\interim\vaccination_data\vaccinations_county_20211003.csv'
-data = pd.read_csv(project_dir + data_path)
-
-# restricting dataframe
-data = data[['teryt', 'powiat', '%_zaszczepieni']]
-
-# reshaping teryt
-data['teryt'] = data['teryt'].apply(lambda x: str(x).zfill(4))
+# # loading dataframe
+# # lopip freeze > requirements.txtading data
+# data_path = r'\data\interim\vaccination_data\vaccinations_county_20211003.csv'
+# data = pd.read_csv(project_dir + data_path)
+#
+# # restricting dataframe
+# data = data[['teryt', 'powiat', '%_zaszczepieni']]
+#
+# # reshaping teryt
+# data['teryt'] = data['teryt'].apply(lambda x: str(x).zfill(4))
 
 # # loading geojson
 # with open(project_dir + r'\data\interim\geo\geo_county.geojson') as file:
