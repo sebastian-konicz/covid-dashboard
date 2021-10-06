@@ -2,6 +2,8 @@ from pathlib import Path
 import pandas as pd
 import plotly.express as px
 import geopandas as gpd
+import json
+import geojson as gj
 import folium
 import time
 from folium import IFrame
@@ -36,19 +38,22 @@ def main():
     # simplifying geometry
     map.geometry = map.geometry.simplify(0.005)
 
-    # merging dataframe
-    geo_df = map.merge(data, left_on="JPT_KOD_JE", right_on='teryt').set_index("teryt")
+    # saving geometry to geojson file
+    map.to_file(project_dir + r'\data\interim\geo\geo_county.geojson', driver='GeoJSON')
 
-    geo_df.to_file(project_dir + r'\data\interim\geo\geo_vaccinations_county.geojson', driver='GeoJSON')
+    # loading geojson
+    with open(project_dir + r'\data\interim\geo\geo_county.geojson') as file:
+        geojson = gj.load(file)
 
     # get the maximum value to cap displayed values
-    max_log = geo_df['%_zaszczepieni'].max()
-    min_val = geo_df['%_zaszczepieni'].min()
+    max_log = data['%_zaszczepieni'].max()
+    min_val = data['%_zaszczepieni'].min()
     max_val = int(max_log) + 1
 
-    fig = px.choropleth_mapbox(geo_df,
-                               geojson=geo_df.geometry,
-                               locations=geo_df.index,
+    fig = px.choropleth_mapbox(data,
+                               geojson=geojson,
+                               featureidkey='properties.JPT_KOD_JE',
+                               locations='teryt',
                                color='%_zaszczepieni',
                                color_continuous_scale=px.colors.diverging.RdBu,
                                range_color=(min_val, max_val),

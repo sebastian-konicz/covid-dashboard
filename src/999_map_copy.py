@@ -42,6 +42,8 @@ def main():
     # changing data to GeoJSON
     map_geo = map.to_json()
 
+    print(type(map_geo))
+
     # creating folium map
     map_graph = folium.Map([52, 19], zoom_start=6)
 
