@@ -7,8 +7,7 @@ import dash
 from dash import dcc
 from dash import html
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__)
 server = app.server
 
 # project directory
@@ -53,7 +52,7 @@ app.layout = html.Div([
             style={'textAlign': 'center'}),
     dcc.Graph(
             id='example-map',
-            figure=fig
+            # figure=fig
     ),
 ])
 
