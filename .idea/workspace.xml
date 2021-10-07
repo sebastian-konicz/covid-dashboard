@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711db136-6694-423f-94e6-7226af04e264" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/012_vac_cou_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/012_vac_cou_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/103_cov_cou_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/103_cov_cou_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_copy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +31,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Sebastian\Desktop\covid-dashboard\src" />
       <recent name="C:\Users\Sebastian\Desktop\covid-dashboard" />
+      <recent name="C:\Users\Sebastian\Desktop\covid-dashboard\src" />
     </key>
   </component>
   <component name="RunManager" selected="Python.app">
@@ -191,7 +191,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app.py</url>
-          <line>35</line>
+          <line>22</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
