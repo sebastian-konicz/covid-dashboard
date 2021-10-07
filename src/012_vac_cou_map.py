@@ -2,11 +2,8 @@ from pathlib import Path
 import pandas as pd
 import plotly.express as px
 import geopandas as gpd
-import json
 import geojson as gj
-import folium
 import time
-from folium import IFrame
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)

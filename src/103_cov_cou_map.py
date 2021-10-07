@@ -2,9 +2,8 @@ from pathlib import Path
 import pandas as pd
 import plotly.express as px
 import geopandas as gpd
-import folium
+import geojson as gj
 import time
-from folium import IFrame
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
@@ -36,19 +35,19 @@ def main():
     # simplifying geometry
     map.geometry = map.geometry.simplify(0.005)
 
-    # merging dataframe
-    geo_df = map.merge(data, left_on="JPT_KOD_JE", right_on='teryt').set_index("teryt")
-
-    geo_df.to_file(project_dir + r'\data\interim\geo\geo_covid_county.geojson', driver='GeoJSON')
+    # loading geojson
+    with open(project_dir + r'\data\interim\geo\geo_county.geojson') as file:
+        geojson = gj.load(file)
 
     # get the maximum value to cap displayed values
-    max_log = geo_df['zar_10k'].max()
-    min_val = geo_df['zar_10k'].min()
+    max_log = data['zar_10k'].max()
+    min_val =data['zar_10k'].min()
     max_val = int(max_log) + 1
 
-    fig = px.choropleth_mapbox(geo_df,
-                               geojson=geo_df.geometry,
-                               locations=geo_df.index,
+    fig = px.choropleth_mapbox(data,
+                               geojson=geojson,
+                               featureidkey='properties.JPT_KOD_JE',
+                               locations='teryt',
                                color='zar_10k',
                                color_continuous_scale=px.colors.diverging.RdBu_r,
                                range_color=(min_val, max_val),
