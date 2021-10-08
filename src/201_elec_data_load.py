@@ -20,12 +20,12 @@ def main():
     # restricting dataframe to necessary columns
     data = data[['Kod TERYT', 'Powiat',
                  'Liczba głosów ważnych oddanych łącznie na wszystkie listy kandydatów',
-                 'KOMITET WYBORCZY KONFEDERACJA WOLNOŚĆ I NIEPODLEGŁOŚĆ - ZPOW-601-5/19']]
+                 'KOMITET WYBORCZY PRAWO I SPRAWIEDLIWOŚĆ - ZPOW-601-9/19']]
 
     # renaming columns
     data.rename(columns={'Kod TERYT': "teryt", "Powiat": "powiat",
                          'Liczba głosów ważnych oddanych łącznie na wszystkie listy kandydatów': 'glosy',
-                         'KOMITET WYBORCZY KONFEDERACJA WOLNOŚĆ I NIEPODLEGŁOŚĆ - ZPOW-601-5/19': 'pis'}, inplace=True)
+                         'KOMITET WYBORCZY PRAWO I SPRAWIEDLIWOŚĆ - ZPOW-601-9/19': 'pis'}, inplace=True)
 
 
     # reshaping teryt

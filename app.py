@@ -22,11 +22,11 @@ data_vac = data_vac[['teryt', 'powiat', '%_zaszczepieni']]
 data_vac['teryt'] = data_vac['teryt'].apply(lambda x: str(x).zfill(4))
 
 # loading dataframe - covid_cases
-data_cov_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/covid_data/covid_county_month.xlsx'
+data_cov_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/elections/elections_county.xlsx'
 data_cov = pd.read_excel(data_cov_path, engine='openpyxl')
 
 # restricting dataframe
-data_cov = data_cov[['teryt', 'powiat_miasto', 'zar_10k']]
+data_cov = data_cov[['teryt', 'powiat', '%_glosy']]
 # reshaping teryt
 data_cov['teryt'] = data_cov['teryt'].apply(lambda x: str(x).zfill(4))
 
@@ -45,35 +45,36 @@ fig_vac = px.choropleth_mapbox(data_vac,
                            geojson=geojson,
                            featureidkey='properties.JPT_KOD_JE',
                            locations='teryt',
+                           hover_name='powiat',
+                           # hover_data='%_zaszczepieni',
                            color='%_zaszczepieni',
+                           title='procent osób zaszczepionych',
                            color_continuous_scale=px.colors.diverging.RdBu,
                            range_color=(min_val_vac, max_val_vac),
                            mapbox_style="carto-positron",
                            zoom=5, center={"lat": 52, "lon": 19},
                            opacity=0.5,
                            )
-fig_vac.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0},
-                      mapbox=dict(accesstoken='pk.eyJ1Ijoic2ViYXN0aWFua29uaWN6IiwiYSI6ImNrdWhjNGs0ZzE2bXAzMXJ0Y2RibmJ3OHMifQ.GRxIKFjuWBcrShcf6FCiJA'))
+fig_vac.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
 # # # # # # COVID CASES MAP # # # # # #
 # get the maximum value to cap displayed values - vaccinations
-max_log_cov = data_cov['zar_10k'].max()
-min_val_cov = data_cov['zar_10k'].min()
+max_log_cov = data_cov['%_glosy'].max()
+min_val_cov = data_cov['%_glosy'].min()
 max_val_cov = int(max_log_vac) + 1
 
 fig_cov = px.choropleth_mapbox(data_cov,
                            geojson=geojson,
                            featureidkey='properties.JPT_KOD_JE',
                            locations='teryt',
-                           color='zar_10k',
+                           color='%_glosy',
                            color_continuous_scale=px.colors.diverging.RdBu_r,
                            range_color=(min_val_cov, max_val_cov),
                            mapbox_style="carto-positron",
                            zoom=5, center={"lat": 52, "lon": 19},
                            opacity=0.5,
                            )
-fig_cov.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0},
-                      mapbox=dict(accesstoken='pk.eyJ1Ijoic2ViYXN0aWFua29uaWN6IiwiYSI6ImNrdWhjNGs0ZzE2bXAzMXJ0Y2RibmJ3OHMifQ.GRxIKFjuWBcrShcf6FCiJA'))
+fig_cov.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
 # # # # # LAYOUT # # # # # #
 # app.layout = html.Div([
@@ -91,32 +92,41 @@ fig_cov.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0},
 #     ]),
 # ])
 
+width = 6
+
 app.layout = dbc.Container([
             html.H1('Mapa szczepień na COVID-19 w Polsce ',
                     style={'textAlign': 'center'}),
+            dbc.Row([
+                dbc.Col(
+                    dcc.Markdown('''
+                        ##### Procent osób zaszczepionych przeciwko COVID19 w powiatach 
+                        **Źródło**: Oficjalne dane dot. zaszczepienia przeciwko COVID19 w gminach z portalu [Otwarte dane](https://dane.gov.pl/pl/dataset/2476,odsetek-osob-zaszczepionych-przeciwko-covid19-w-gm?fbclid=IwAR059OLAARQT9Umr02jVnfn9abacBD0ZF12fNyHH7m1hHXUswt-tufdMDsA)  
+                        **Uwagi**: Dane źródłowe zostały zagregowane z poziomu gmin do powiatów
+                        '''),
+                    width=width),
+                dbc.Col(
+                    dcc.Markdown('''
+                        ##### Procent osób głosujących na PiS w wyborach do parlamentu w 2019 roku w podziale na powiaty 
+                        **Źródło**: Dane Państwowej Komisji Wyborczej dot. wyborów do Sejmu i Senatu Rzeczypospolitej Polskiej 2019  [sejmsenat2019.pkw.gov.pl](https://sejmsenat2019.pkw.gov.pl/sejmsenat2019/data/csv/wyniki_gl_na_listy_po_powiatach_sejm_xlsx.zip)
+                         
+                        '''),
+                    width=width),
+            ]),
             dbc.Row(
                 [
                     dbc.Col([
-                        dcc.Markdown('''
-                        ## Odsetek osób zaszczepionych przeciwko COVID19 w powiatach 
-                        [Oficjalne dane dot. zaszczepienia przeciwko COVID19 w gminach z portalu "Otwarte dane" portal](https://dane.gov.pl/pl/dataset/2476,odsetek-osob-zaszczepionych-przeciwko-covid19-w-gm?fbclid=IwAR059OLAARQT9Umr02jVnfn9abacBD0ZF12fNyHH7m1hHXUswt-tufdMDsA)
-                        '''),
                         dcc.Graph(
                             id='vaccination_map',
                             figure=fig_vac
                         )
-                    ]),
+                    ], width=width),
                     dbc.Col([
-                        dcc.Markdown('''
-                        # This is an <h1> tag
-                        ## This is an <h2> tag
-                        ###### This is an <h6> tag
-                        '''),
                         dcc.Graph(
                             id='covid_cases_map',
                             figure=fig_cov
                         )
-                    ]),
+                    ], width=width),
                 ],
             ),
         ],
