@@ -10,7 +10,7 @@ http://covid-vaccinations.herokuapp.com/
 1. [Official COVID vaccination data from "Open data" portal](https://dane.gov.pl/pl/dataset/2476,odsetek-osob-zaszczepionych-przeciwko-covid19-w-gm?fbclid=IwAR059OLAARQT9Umr02jVnfn9abacBD0ZF12fNyHH7m1hHXUswt-tufdMDsA)
 2. [The Main Office of Geodesy and Cartography regional division of the country into municipalities (shapefile)](http://www.gugik.gov.pl/pzgik/dane-bez-oplat/dane-z-panstwowego-rejestru-granic-i-powierzchni-jednostek-podzialow-terytorialnych-kraju-prg)
 
-## Inspiration articles:
+## Inspiration articles :
 1. [Folium map tutorial](https://python-visualization.github.io/folium/installing.html)
 2. [Deployment of map on Heroku](https://towardsdatascience.com/your-cool-folium-maps-on-the-web-313f9d1a6bcd)
 
