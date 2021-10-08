@@ -14,7 +14,7 @@ def main():
 
     # loading data
     # gettig the file with PNA data
-    data_path = r'\data\raw\vaccination_data\poziom_wyszczepienia_mieszkańców_gmin_w_dniu_20211003_wskaźniki.csv'
+    data_path = r'\data\raw\vaccination_data\poziom_wyszczepienia_mieszkańców_gmin_w_dniu_20211007_wskaźniki.csv'
     data = pd.read_csv(project_dir + data_path, encoding_errors='ignore', sep=';')
 
     # restricting dataframe to necessary columns
@@ -37,7 +37,7 @@ def main():
 
     # saving data
     print('saving data - all')
-    data_save_path = r'\data\interim\vaccination_data\vaccinations_county_20211003'
+    data_save_path = r'\data\interim\vaccination_data\vaccinations_county_20211007'
     data_aggr.to_excel(project_dir + data_save_path + '.xlsx', index=False)
     data_aggr.to_csv(project_dir + data_save_path + '.csv', index=False)
 

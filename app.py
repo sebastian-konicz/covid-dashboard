@@ -6,16 +6,14 @@ import urllib.request
 import dash
 from dash import dcc
 from dash import html
-# import dash_core_components as dcc
-# import dash_html_components as html
 import dash_bootstrap_components as dbc
 
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 # # # # # DATA # # # # # #
 # loading dataframe - vaccinations
-data_vac_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/vaccination_data/vaccinations_county_20211003.xlsx'
+data_vac_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/vaccination_data/vaccinations_county_20211007.xlsx'
 data_vac = pd.read_excel(data_vac_path, engine='openpyxl')
 
 # restricting dataframe
@@ -96,21 +94,29 @@ fig_cov.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0},
 app.layout = dbc.Container([
             html.H1('Mapa szczepień na COVID-19 w Polsce ',
                     style={'textAlign': 'center'}),
-
             dbc.Row(
                 [
-                    dbc.Col(
+                    dbc.Col([
+                        dcc.Markdown('''
+                        ## Odsetek osób zaszczepionych przeciwko COVID19 w powiatach 
+                        [Oficjalne dane dot. zaszczepienia przeciwko COVID19 w gminach z portalu "Otwarte dane" portal](https://dane.gov.pl/pl/dataset/2476,odsetek-osob-zaszczepionych-przeciwko-covid19-w-gm?fbclid=IwAR059OLAARQT9Umr02jVnfn9abacBD0ZF12fNyHH7m1hHXUswt-tufdMDsA)
+                        '''),
                         dcc.Graph(
                             id='vaccination_map',
                             figure=fig_vac
                         )
-                    ),
-                    dbc.Col(
+                    ]),
+                    dbc.Col([
+                        dcc.Markdown('''
+                        # This is an <h1> tag
+                        ## This is an <h2> tag
+                        ###### This is an <h6> tag
+                        '''),
                         dcc.Graph(
                             id='covid_cases_map',
                             figure=fig_cov
                         )
-                    ),
+                    ]),
                 ],
             ),
         ],
