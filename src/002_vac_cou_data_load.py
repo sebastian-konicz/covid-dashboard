@@ -65,7 +65,7 @@ def main():
 
     # saving data
     print('saving vaccination data - population')
-    data_save_path = r'\data\interim\covid_data\population_county'
+    data_save_path = r'\data\interim\vaccination_data\population_county'
     data_pop.to_excel(project_dir + data_save_path + '.xlsx', index=False)
     # data_pop.to_csv(project_dir + data_save_path + '.csv', index=False)
 

@@ -34,7 +34,7 @@ def main():
         map.geometry = map.geometry.simplify(0.005)
 
         # saving geometry to geojson file
-        map.to_file(project_dir + r'\data\final\geo\geo_{name}.geojson'.format(name=name), driver='GeoJSON')
+        map.to_file(project_dir + r'\data\final\geo_{name}.geojson'.format(name=name), driver='GeoJSON')
 
     # end time of program + duration
     end_time = time.time()

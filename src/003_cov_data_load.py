@@ -27,11 +27,6 @@ def main():
     print('file concatenation')
     data = pd.concat(cov_files,  ignore_index=True)
 
-    print('saving covid data - all')
-    data_save_path = r'\data\interim\covid_data\covid_county_all'
-    data.to_excel(project_dir + data_save_path + '.xlsx', index=False)
-    # data.to_csv(project_dir + data_save_path + '.csv', index=False)
-
     # data transformation
     # restricting dataframe to necessary columns
     data_transf = data[['teryt', 'powiat_miasto', 'liczba_przypadkow', 'zgony', 'stan_rekordu_na']].copy()
@@ -45,10 +40,8 @@ def main():
     # filling nan values
     data_transf.fillna(value=0, inplace=True)
 
-    print(data_transf.head())
-
-    print('saving files - daily')
-    data_save_path = r'\data\interim\covid_data\covid_county_daily'
+    print('saving covid data - all')
+    data_save_path = r'\data\interim\covid_data\covid_county_all'
     data_transf.to_excel(project_dir + data_save_path + '.xlsx', index=False)
     # data_transf.to_csv(project_dir + data_save_path + '.csv', index=False)
 

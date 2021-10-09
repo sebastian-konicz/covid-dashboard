@@ -12,12 +12,15 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 # # # # # VARIABLES # # # # # #
-date = '2021-10-07'
+date = '2021-10-06'
 
 # # # # # DATA # # # # # #
 # loading dataframe - vaccinations
-data_vac_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/vaccination_data/vaccinations_county_20211007.xlsx'
+data_vac_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/vaccination_data/vaccinations_county_all.xlsx'
 data_vac = pd.read_excel(data_vac_path, engine='openpyxl')
+
+# setting date
+data_vac = data_vac[data_vac['data'] == date]
 
 # restricting dataframe
 data_vac = data_vac[['teryt', 'powiat', '%_zaszczepieni']]
@@ -35,15 +38,15 @@ data_cov['teryt'] = data_cov['teryt'].apply(lambda x: str(x).zfill(4))
 
 # loading geojson files
 # municipality
-jsonurl_mun = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/final/geo/geo_municipality.geojson'
+jsonurl_mun = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/final/geo_municipality.geojson'
 with urllib.request.urlopen(jsonurl_mun) as url:
     geojson_mun = gj.load(url)
 # county
-jsonurl_cou = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/final/geo/geo_county.geojson'
+jsonurl_cou = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/final/geo_county.geojson'
 with urllib.request.urlopen(jsonurl_cou) as url:
     geojson_cou = gj.load(url)
 # county
-jsonurl_voi = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/final/geo/geo_voivodeship.geojson'
+jsonurl_voi = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/final/geo_voivodeship.geojson'
 with urllib.request.urlopen(jsonurl_voi) as url:
     geojson_voi = gj.load(url)
 
@@ -125,22 +128,22 @@ app.layout = dbc.Container([
                         '''),
                     width=width),
             ]),
-            dbc.Row(
-                [
-                    dbc.Col([
-                        dcc.Graph(
-                            id='vaccination_map',
-                            figure=fig_vac
-                        )
-                    ], width=width),
-                    dbc.Col([
-                        dcc.Graph(
-                            id='covid_cases_map',
-                            figure=fig_cov
-                        )
-                    ], width=width),
-                ],
-            ),
+            # dbc.Row(
+            #     [
+            #         dbc.Col([
+            #             dcc.Graph(
+            #                 id='vaccination_map',
+            #                 figure=fig_vac
+            #             )
+            #         ], width=width),
+            #         dbc.Col([
+            #             dcc.Graph(
+            #                 id='covid_cases_map',
+            #                 figure=fig_cov
+            #             )
+            #         ], width=width),
+            #     ],
+            # ),
         ],
         fluid=True,
     )

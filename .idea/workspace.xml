@@ -3,670 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="711db136-6694-423f-94e6-7226af04e264" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/geo/geo_municipality.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/geo/geo_municipality.geojson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_all.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/covid_data/covid_county_all.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_daily.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/covid_data/covid_county_daily.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/population_county.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/covid_data/population_county.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/elections/elections_county.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/elections/elections_county.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/geo/geo_county.geojson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/geo/geo_vaccinations.geojson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/geo/linkedin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_county_20211003.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_county_20211003.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_county_20211007.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_county_20211007.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_county_all.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_county_all.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_county_all.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_municipality_20210929.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_municipality_20210929.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_municipality_20211007.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_municipality_20211007.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201124060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201125060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201126060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201127060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201128060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201129060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201130060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201201060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201202060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201203060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201204060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201205060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201206060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201207060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201208060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201209060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201210060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201211060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201212060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201213060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201214060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201215060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201216060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201217060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201218060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201219060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201220060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201221060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201222060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201223060000_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201224150428_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201225054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201226054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201227054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201228054503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201229054505_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201230064728_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20201231054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210101054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210102054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210103054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210104054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210105054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210106054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210107054535_rap_gov_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210108054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210109054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210110054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210111054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210112054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210113054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210114054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210115054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210116054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210117054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210118054503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210119054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210120054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210121054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210122054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210123054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210124054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210125083606_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210126054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210127054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210128054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210129083554_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210130054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210131054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210201054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210202054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210203054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210204054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210205054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210206054518_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210207054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210208054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210209054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210210054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210211065724_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210212054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210213054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210214054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210215054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210216054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210217054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210218054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210219054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210220054501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210221054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210222054503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210223054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210224054502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210225074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210226074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210227074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210228074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210301074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210302074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210303074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210304074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210305074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210306074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210307074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210308074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210309074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210310074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210311074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210312074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210313074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210314074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210315074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210316074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210317074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210318074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210319074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210320074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210321075502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210322075502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210323074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210324074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210325074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210326074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210327074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210328074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210329074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210330074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210331074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210401074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210402074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210403074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210404074504_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210405074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210406074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210407074504_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210408074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210409074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210410074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210411074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210412074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210413074504_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210414074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210415074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210416074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210417074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210418074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210419074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210420074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210421074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210422074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210423074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210424074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210425074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210426074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210427074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210428074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210429074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210430074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210501074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210502074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210503074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210504074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210505074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210506074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210507074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210508074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210509074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210510074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210511074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210512074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210513074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210514074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210515074504_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210516074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210517074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210518074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210519074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210520074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210521074506_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210522074504_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210523074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210524074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210525074504_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210526074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210527074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210528074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210529074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210530074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210531074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210601074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210602074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210603074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210604074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210605074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210606074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210607074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210608074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210609074500_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210610074859_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210611074500_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210612074500_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210613074500_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210614074500_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210615074500_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210616074500_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210617074500_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210618074650_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210619074851_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210620074834_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210621080306_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210622082023_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210623075822_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210624075124_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210625074543_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210626080734_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210627074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210628074500_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210629074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210630074500_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210701074500_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210702074542_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210703075258_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210704075318_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210705074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210706074504_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210707075941_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210708080734_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210709075516_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210710080311_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210711075129_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210712083111_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210713081902_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210714074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210715074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210716074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210717074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210718084501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210719074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210720074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210721074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210722074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210723074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210724074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210725074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210726074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210727074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210728074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210729074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210730074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210731074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210801074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210802074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210803074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210804074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210805074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210806074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210807074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210808074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210809074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210810074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210811074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210812074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210813074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210814074504_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210815074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210816074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210817074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210818074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210819074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210820074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210821090633_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210822074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210823074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210824074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210825074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210826074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210827074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210828074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210829074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210830074505_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210831074505_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210901074559_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210902074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210903074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210904074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210905074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210906074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210907074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210908074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210909074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210910074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210911074504_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210912074505_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210913074515_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210914074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210915074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210916074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210917074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210918074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210919074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210920074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210921074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210922074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210923074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210924074508_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210925074549_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210926074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210927074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210928074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210929074501_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20210930074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20211001074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20211002074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20211003074502_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/20211004074503_rap_rcb_pow_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznepowiaty/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201124060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201125060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201126060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201127060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201128060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201129060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201130060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201201060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201202060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201203060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201204060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201205060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201206060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201207060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201208060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201209060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201210060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201211060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201212060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201213060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201214060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201215060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201216060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201217060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201218060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201219060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201220060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201221060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201222060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201223060000_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201224150439_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201225054514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201226054515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201227054516_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201228054517_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201229054523_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201230064738_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20201231054512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210101054514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210102054515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210103054514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210104054515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210105054518_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210106054518_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210107054518_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210108054519_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210109054519_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210110054523_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210111054518_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210112054524_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210113054526_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210114054520_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210115054523_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210116083811_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210117054524_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210118054526_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210119054524_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210120054532_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210121054525_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210122054526_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210123054528_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210124054529_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210125083634_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210126054534_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210127054534_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210128054534_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210129083624_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210130054530_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210131054536_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210201054537_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210202054539_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210203054535_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210204054533_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210205054532_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210206054621_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210207054537_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210208054541_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210209054546_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210210054544_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210211065803_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210212054542_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210213054540_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210214054541_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210215054544_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210216054541_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210217054537_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210218054544_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210219054536_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210220054540_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210221054539_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210222054546_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210223054539_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210224054540_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210225074544_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210226074546_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210227074545_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210228074545_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210301074545_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210302074547_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210303074540_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210304074539_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210305074539_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210306074543_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210307074543_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210308074542_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210309074543_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210310074544_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210311074543_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210312074547_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210313074545_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210314074545_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210315074547_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210316074547_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210317074546_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210318074549_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210319074549_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210320074549_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210321075546_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210322075548_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210323074552_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210324074548_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210325074550_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210326074550_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210327074526_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210328074524_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210329074526_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210330074526_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210331074526_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210401074526_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210402074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210403074517_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210404074516_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210405074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210406074516_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210407074518_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210408074516_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210409074517_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210410074516_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210411074517_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210412074517_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210413074520_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210414074517_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210415074520_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210416074518_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210417074517_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210418074516_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210419074516_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210420074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210421074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210422074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210423074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210424074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210425074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210426074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210427074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210428074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210429074516_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210430074516_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210501074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210502074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210503074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210504074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210505074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210506074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210507074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210508074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210509074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210510074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210511074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210512074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210513074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210514074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210515074516_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210516074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210517074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210518074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210519074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210520074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210521074531_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210522074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210523074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210524074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210525074516_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210526074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210527074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210528074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210529074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210530074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210531074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210601074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210602074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210603074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210604074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210605074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210606074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210607074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210608074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210609074509_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210610074907_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210611074508_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210612074508_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210613074508_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210614074508_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210615074508_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210616074507_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210617074508_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210618074657_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210619074900_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210620074843_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210621080315_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210622082032_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210623075830_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210624075132_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210625074551_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210626080742_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210627074509_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210628074509_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210629074509_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210630074508_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210701074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210702074550_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210703075306_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210704075326_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210705074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210706074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210707075951_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210708080745_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210709075526_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210710080322_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210711075140_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210712083122_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210713081914_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210714074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210715074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210716074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210717074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210718084511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210719074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210720074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210721074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210722074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210723074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210724074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210725074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210726074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210727074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210728074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210729074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210730074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210731074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210801074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210802074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210803074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210804074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210805074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210806074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210807074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210808074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210809074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210810074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210811074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210812074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210813074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210814074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210815074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210816074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210817074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210818074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210819074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210820074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210821090642_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210822074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210823074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210824074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210825074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210826074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210827074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210828074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210829074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210830074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210831074518_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210901075021_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210902074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210903074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210904074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210905074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210906074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210907074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210908074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210909074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210910074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210911074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210912074514_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210913074526_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210914074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210915074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210916074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210917074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210918074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210919074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210920074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210921074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210922074515_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210923074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210924074518_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210925074655_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210926074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210927074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210928074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210929074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20210930074511_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20211001074510_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20211002074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20211003074512_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/20211004074513_rap_rcb_woj_eksport.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/covid_data/danehistorycznewojewodztwa/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/elections/wyniki_gl_na_listy_po_powiatach_sejm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_all.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_daily.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_month.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/population_county.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/001_map_to_geojson.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/001_map_to_geojson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/011_vac_cou_data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/002_vac_cou_data_load.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/012_vac_cou_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/diss/012_vac_cou_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/101_cov_data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/003_cov_data_load.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/102_cov_data_transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/101_cov_data_transformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/103_cov_cou_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/diss/103_cov_cou_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/201_elec_data_load.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/202_elec_cou_map.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/203_elec_correlation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vaccination_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/002_vac_cou_data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/002_vac_cou_data_load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/003_cov_data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/003_cov_data_load.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -706,7 +50,7 @@
       <recent name="C:\Users\Sebastian\Desktop\covid-dashboard\src\diss" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.000_all_scripts">
+  <component name="RunManager" selected="Python.003_cov_data_load">
     <configuration name="000_all_scripts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="covid-dashboard" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -728,6 +72,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="001_map_to_geojson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covid-dashboard" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/001_map_to_geojson.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="002_vac_cou_data_load" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="covid-dashboard" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -740,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Sebastian\Desktop\covid-dashboard\src\002_vac_cou_data_load.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/002_vac_cou_data_load.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -762,27 +127,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/003_cov_data_load.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="103_cov_cou_map" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="covid-dashboard" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Sebastian\Desktop\covid-dashboard\src\diss\103_cov_cou_map.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -814,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.000_all_scripts" />
         <item itemvalue="Python.003_cov_data_load" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.103_cov_cou_map" />
         <item itemvalue="Python.002_vac_cou_data_load" />
+        <item itemvalue="Python.001_map_to_geojson" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.000_all_scripts" />
       </list>
     </recent_temporary>
   </component>
