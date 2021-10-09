@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711db136-6694-423f-94e6-7226af04e264" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/001_map_to_geojson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/final/vaccination_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/population_county.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/covid_data/population_county.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/population_county.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/covid_data/population_county.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_county_20211007.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_county_20211007.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_county_20211007.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/vaccination_data/vaccinations_county_20211007.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/vaccination_data/poziom_wyszczepienia_mieszkańców_gmin_w_dniu_20211007_wskaźniki.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/001_vac_mun_data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/diss/001_vac_mun_data_load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/002_vac_mun_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/diss/002_vac_mun_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/011_vac_cou_data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/011_vac_cou_data_load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/201_elec_correlation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/212_elec_cou_map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/999_map_copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/diss/999_map_copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/diss/map.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +51,12 @@
       <recent name="C:\Users\Sebastian\Desktop\covid-dashboard\src" />
       <recent name="C:\Users\Sebastian\Desktop\covid-dashboard" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sebastian\Desktop\covid-dashboard\src\diss" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.app">
-    <configuration name="002_vac_mun_map" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.001_map_to_geojson">
+    <configuration name="001_map_to_geojson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="covid-dashboard" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,7 +68,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/002_vac_mun_map.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/001_map_to_geojson.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.001_map_to_geojson" />
+        <item itemvalue="Python.011_vac_cou_data_load" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.212_elec_cou_map" />
         <item itemvalue="Python.201_elec_data_load" />
-        <item itemvalue="Python.002_vac_mun_map" />
-        <item itemvalue="Python.011_vac_cou_data_load" />
       </list>
     </recent_temporary>
   </component>

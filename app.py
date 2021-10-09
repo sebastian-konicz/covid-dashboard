@@ -30,7 +30,7 @@ data_cov = data_cov[['teryt', 'powiat', '%_glosy']]
 # reshaping teryt
 data_cov['teryt'] = data_cov['teryt'].apply(lambda x: str(x).zfill(4))
 
-# loading geojson
+# loading geojson files
 jsonurl = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/geo/geo_county.geojson'
 with urllib.request.urlopen(jsonurl) as url:
     geojson = gj.load(url)

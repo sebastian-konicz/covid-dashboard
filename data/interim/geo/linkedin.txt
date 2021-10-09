@@ -1,0 +1,15 @@
+Czwarta fala #COVID już nadeszła więc postanowiłem, że zrobię mapę pokazującą odsetek osób zaszczepionych z Polsce w podziale na powiaty
+📊 https://covid-vaccinations.herokuapp.com/
+
+Niemniej sama mapa byłaby nudna - pewnie już takie są pokazywane w mediach. Tak więc zestawiłem dane dot. szczepień z wynikami PiS w ostatnich wyborach do parlamentu (również w podziale na powiaty)
+
+No i okazuje się, że jest średnia, negatywna korelacja pomiędzy tymi danymi. 
+Współczynnik korelacji Pearsona = -0.706
+Innymi słowy im większe poparcie dla PiS w danym powiecie tym mniej osób chce się szczepić :)
+
+Uprzejmie proszę o propozycje z czym jeszcze można by zestawić dane dot. poziomu szczepień w Polsce 
+
+Repozytorium na GitHubie:
+💻 https://github.com/sebastian-konicz/vaccinations
+
+#covid19 #polska #szczepienia #szczepmysie #pis #statystyka #gis #Python #FunWithMaps #Dash
