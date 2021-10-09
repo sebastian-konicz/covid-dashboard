@@ -21,9 +21,7 @@ def main():
                 }
 
     for file, name in map_dict.items():
-        print(file)
-        print(name)
-
+        print('creating geojson for {}'.format(name))
         # loading map data
         geo_path = r'\data\geo\admin\{file}.shp'.format(file=file)
         map = gpd.read_file(project_dir + geo_path)
