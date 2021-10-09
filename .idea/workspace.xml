@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711db136-6694-423f-94e6-7226af04e264" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_all.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_daily.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_month.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/population_county.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/001_map_to_geojson.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/001_map_to_geojson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/002_vac_cou_data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/002_vac_cou_data_load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_daily.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_month.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/population_county.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/003_cov_data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/003_cov_data_load.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,9 +155,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.003_cov_data_load" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.002_vac_cou_data_load" />
         <item itemvalue="Python.001_map_to_geojson" />
-        <item itemvalue="Python.app" />
         <item itemvalue="Python.000_all_scripts" />
       </list>
     </recent_temporary>

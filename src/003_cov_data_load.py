@@ -32,7 +32,7 @@ def main():
     data_transf = data[['teryt', 'powiat_miasto', 'liczba_przypadkow', 'zgony', 'stan_rekordu_na']].copy()
 
     # renaming columns
-    data_transf.rename(columns={'liczba_przypadkow': "zarazenia", 'stan_rekordu_na': 'data'}, inplace=True)
+    data_transf.rename(columns={'powiat_miasto': 'powiat', 'liczba_przypadkow': "zarazenia", 'stan_rekordu_na': 'data'}, inplace=True)
 
     # changing teryt code
     data_transf['teryt'] = data_transf['teryt'].apply(lambda x: str(x)[1:])

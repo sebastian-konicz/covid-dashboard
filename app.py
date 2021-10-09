@@ -28,12 +28,16 @@ data_vac = data_vac[['teryt', 'powiat', '%_zaszczepieni']]
 data_vac['teryt'] = data_vac['teryt'].apply(lambda x: str(x).zfill(4))
 
 # loading dataframe - covid_cases
-data_cov_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/elections/elections_county.xlsx'
+data_cov_path = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/interim/covid_data/covid_county_all.xlsx'
 data_cov = pd.read_excel(data_cov_path, engine='openpyxl')
 
+# setting date
+data_cov = data_cov[data_cov['data'] == date]
+
 # restricting dataframe
-data_cov = data_cov[['teryt', 'powiat', '%_glosy']]
+data_cov = data_cov[['teryt', 'powiat_miasto', 'zarazenia']]
 # reshaping teryt
+data_cov = data_cov[data_cov['teryt'] != 0]
 data_cov['teryt'] = data_cov['teryt'].apply(lambda x: str(x).zfill(4))
 
 # loading geojson files
@@ -74,15 +78,15 @@ fig_vac.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
 # # # # # # COVID CASES MAP # # # # # #
 # get the maximum value to cap displayed values - vaccinations
-max_log_cov = data_cov['%_glosy'].max()
-min_val_cov = data_cov['%_glosy'].min()
+max_log_cov = data_cov['zarazenia'].max()
+min_val_cov = data_cov['zarazenia'].min()
 max_val_cov = int(max_log_vac) + 1
 
 fig_cov = px.choropleth_mapbox(data_cov,
                            geojson=geojson_cou,
                            featureidkey='properties.JPT_KOD_JE',
                            locations='teryt',
-                           color='%_glosy',
+                           color='zarazenia',
                            color_continuous_scale=px.colors.diverging.RdBu_r,
                            range_color=(min_val_cov, max_val_cov),
                            mapbox_style="carto-positron",
