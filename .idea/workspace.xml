@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711db136-6694-423f-94e6-7226af04e264" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_daily.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/covid_county_month.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/covid_data/population_county.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/003_cov_data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/003_cov_data_load.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
       <recent name="C:\Users\Sebastian\Desktop\covid-dashboard\src\diss" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.003_cov_data_load">
+  <component name="RunManager" selected="Python.app">
     <configuration name="000_all_scripts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="covid-dashboard" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.003_cov_data_load" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.003_cov_data_load" />
         <item itemvalue="Python.002_vac_cou_data_load" />
         <item itemvalue="Python.001_map_to_geojson" />
         <item itemvalue="Python.000_all_scripts" />
