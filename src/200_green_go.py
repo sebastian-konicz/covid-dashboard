@@ -23,10 +23,10 @@ def main():
     # loading geojson files
     # municipality
     # geojson_mun = gj.load(project_dir + r'\data\geo\export.geojson')
-    geojson_mun = gj.load(project_dir + r'\data\final\geo_municipality.geojson')
-    # jsonurl_mun = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/final/geo_municipality.geojson'
-    # with urllib.request.urlopen(jsonurl_mun) as url:
-    #     geojson_mun = gj.load(url)
+    # geojson_mun = gj.load(project_dir + r'\data\final\geo_municipality.geojson')
+    jsonurl_mun = 'https://github.com/sebastian-konicz/covid-dashboard/raw/main/data/geojson/export.geojson'
+    with urllib.request.urlopen(jsonurl_mun) as url:
+        geojson_mun = gj.load(url)
 
     print(geojson_mun)
 
